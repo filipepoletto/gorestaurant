@@ -41,4 +41,8 @@ export const Form = styled(Unform)`
       margin: 0 auto;
     }
   }
+
+  @media (max-width: 600px) {
+    padding: 24px 20px;
+  }
 `;
