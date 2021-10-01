@@ -11,4 +11,10 @@ export const FoodsContainer = styled.div`
 
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 32px;
+
+  @media (max-width: 600px) {
+    display: inline-flex;
+    padding: 40px 4px;
+    overflow: auto;
+  }
 `;

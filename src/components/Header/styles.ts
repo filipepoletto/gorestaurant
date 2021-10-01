@@ -40,4 +40,12 @@ export const Container = styled.div`
       }
     }
   }
+
+  @media (max-width: 600px) {
+    header {
+      width: 100%;
+      flex-direction: column;
+      gap: 32px;
+    }
+  }
 `;
